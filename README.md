@@ -2,9 +2,9 @@
 
 ## 简介
 
-tinyhttpd是一个简易的http服务器，支持CGI。其结构简单，但包含了网络请求处理的一般步骤，适合用于练习linux网络编程，tinyhttpd包含了Linux上进程的创建，管道的使用，socket编程的基本方法和http协议的基本结构。
+tinyhttpd是一个简易的http服务器，支持CGI。其结构简单，但包含了网络请求处理的一般步骤，适合用于练习linux网络编程，tinyhttpd包含了Linux上进程的创建，管道的使用，socket编程的基本方法和http协议的基本结构等。
 
-tinyhttp主要包含以下函数
+tinyhttpd主要包含以下函数
 
 ```c
 void accept_request(int);   // 处理从套接字上监听到的一个 HTTP 请求
